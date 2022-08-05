@@ -14,7 +14,4 @@ void loop(){
   Serial.println("INDICE UV:"+String(indice)+"-Rango:"+String(longOnda));
   
   delay(2000);
-  
-  
-  
   }
