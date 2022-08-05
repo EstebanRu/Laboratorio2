@@ -35,7 +35,6 @@ int uv=A4, lectura;
 RTC_DS3231 rtc;    // crea objeto  de tipo RTC_DS3132
 
 
-
 void setup(){
   Serial.begin(9600);    // comunicacion de monitor serial a 9600 bps
   Serial2.begin(9600);    // comunicacion serie entre Arduino y el modulo a 38400 bps 
